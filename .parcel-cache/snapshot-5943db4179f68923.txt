@@ -1,16 +1,18 @@
-15
-44C:\Users\ASUS\WebstormProjects\SAMS_web\dist133723500975886530 1
-61C:\Users\ASUS\WebstormProjects\SAMS_web\dist\main.d4f934ef.js133723491838498452 0
+17
+54C:\Users\ASUS\WebstormProjects\SAMS_web\.gitattributes133723503435298625 0
+45C:\Users\ASUS\WebstormProjects\SAMS_web\.idea133723504707647160 1
 52C:\Users\ASUS\WebstormProjects\SAMS_web\backgrnd.jpg133723491532034860 0
-45C:\Users\ASUS\WebstormProjects\SAMS_web\.idea133723500880390033 1
-48C:\Users\ASUS\WebstormProjects\SAMS_web\main.css133723499580477513 0
+61C:\Users\ASUS\WebstormProjects\SAMS_web\dist\main.d4f934ef.js133723491838498452 0
+44C:\Users\ASUS\WebstormProjects\SAMS_web\dist133723500975886530 1
+48C:\Users\ASUS\WebstormProjects\SAMS_web\main.css133723504637931336 0
 49C:\Users\ASUS\WebstormProjects\SAMS_web\main.html133723500975156012 0
-57C:\Users\ASUS\WebstormProjects\SAMS_web\.idea\modules.xml133723464553234876 0
-56C:\Users\ASUS\WebstormProjects\SAMS_web\.idea\.gitignore133723463810791268 0
-59C:\Users\ASUS\WebstormProjects\SAMS_web\.idea\workspace.xml133723500880380033 0
-58C:\Users\ASUS\WebstormProjects\SAMS_web\.idea\SAMS_web.iml133723464553064873 0
-65C:\Users\ASUS\WebstormProjects\SAMS_web\dist\main.d4f934ef.js.map133723491838518333 0
 66C:\Users\ASUS\WebstormProjects\SAMS_web\dist\backgrnd.d5087c29.jpg133723491838608337 0
+65C:\Users\ASUS\WebstormProjects\SAMS_web\dist\main.d4f934ef.js.map133723491838518333 0
 62C:\Users\ASUS\WebstormProjects\SAMS_web\dist\main.e5980c4e.css133723499581257508 0
 66C:\Users\ASUS\WebstormProjects\SAMS_web\dist\main.e5980c4e.css.map133723499581267481 0
 54C:\Users\ASUS\WebstormProjects\SAMS_web\dist\main.html133723500975886530 0
+57C:\Users\ASUS\WebstormProjects\SAMS_web\.idea\modules.xml133723464553234876 0
+56C:\Users\ASUS\WebstormProjects\SAMS_web\.idea\.gitignore133723463810791268 0
+58C:\Users\ASUS\WebstormProjects\SAMS_web\.idea\SAMS_web.iml133723464553064873 0
+53C:\Users\ASUS\WebstormProjects\SAMS_web\.idea\vcs.xml133723504638201390 0
+59C:\Users\ASUS\WebstormProjects\SAMS_web\.idea\workspace.xml133723504707637081 0

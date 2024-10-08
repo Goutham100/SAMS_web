@@ -3,22 +3,22 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-image: url('backgrnd.jpg'); /* Add background image */
-    background-size: cover; /* Cover the entire screen */
-    background-position: center; /* Center the background */
-    background-attachment: fixed; /* Keep background fixed during scroll */
+    background-image: url('backgrnd.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: #333;
 }
 
 .top-bar {
-    width: 100vw; /* Ensure the top bar takes full viewport width */
-    background-color: rgba(46, 125, 50, 0.9); /* Dark green with transparency */
+    width: 100vw;
+    background-color: rgba(46, 125, 50, 0.9);
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0; /* Remove side padding, and only use top and bottom padding */
-    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    padding: 15px 0;
+    box-sizing: border-box;
     position: fixed;
 
     top: 0;
@@ -29,7 +29,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #fffde7;
-    margin-left: 30px; /* Add a margin for the logo */
+    margin-left: 30px;
 }
 
 .nav-links {
@@ -50,27 +50,27 @@ body {
 }
 
 .content {
-    padding-top: 100px; /* Create space for fixed header */
+    padding-top: 100px;
     padding-left: 30px;
     padding-right: 30px;
     display: flex;
-    justify-content: center; /* Center content */
+    justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Make sure content takes up at least full screen height */
+    min-height: 100vh;
 }
 
 .translucent-box {
-    background-color: rgba(255, 255, 255, 0.8); /* White with 80% transparency */
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 8px;
     padding: 30px;
-    max-width: 800px; /* Limit the box width */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    max-width: 800px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     color: #333;
 }
 
 h1 {
     font-size: 32px;
-    color: #2e7d32; /* Match header with green theme */
+    color: #2e7d32;
     margin-bottom: 20px;
 }
 
