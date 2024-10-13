@@ -53,7 +53,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding-top: 100px;
+  padding-top: 20px;
   padding-left: 30px;
   padding-right: 30px;
   display: flex;
@@ -61,22 +61,38 @@ body {
 
 .translucent-box {
   color: #333;
-  background-color: #fffc;
-  border-radius: 8px;
-  max-width: 800px;
-  padding: 30px;
-  box-shadow: 0 4px 8px #0000001a;
+  background-color: #ffffffe6;
+  border-radius: 10px;
+  max-width: 900px;
+  padding: 40px;
+  box-shadow: 0 6px 10px #00000026;
 }
 
 h1 {
+  text-align: center;
   color: #2e7d32;
   margin-bottom: 20px;
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 p {
-  margin-bottom: 20px;
-  font-size: 18px;
-  line-height: 1.8;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.image-container {
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  display: flex;
+}
+
+.image-container img {
+  width: 25%;
+  height: auto;
+  margin: 0 50px;
+  padding-top: 55px;
+  box-shadow: 0 4px 8px #0000001a;
 }
 /*# sourceMappingURL=main.e5980c4e.css.map */

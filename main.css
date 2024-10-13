@@ -20,11 +20,11 @@ body {
     padding: 15px 0;
     box-sizing: border-box;
     position: fixed;
-
     top: 0;
     left: 0;
     z-index: 1000;
 }
+
 .logo {
     font-size: 24px;
     font-weight: bold;
@@ -50,7 +50,7 @@ body {
 }
 
 .content {
-    padding-top: 100px;
+    padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
     display: flex;
@@ -60,22 +60,39 @@ body {
 }
 
 .translucent-box {
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 8px;
-    padding: 30px;
-    max-width: 800px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly more opaque for better readability */
+    border-radius: 10px;
+    padding: 40px; /* Increased padding */
+    max-width: 900px; /* Slightly wider */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); /* Stronger shadow */
     color: #333;
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 2rem; /* Adjusted to responsive rems */
+    text-align: center; /* Centered heading */
     color: #2e7d32;
     margin-bottom: 20px;
 }
 
 p {
-    margin-bottom: 20px;
-    font-size: 18px;
-    line-height: 1.8;
+    margin-bottom: 15px;
+    font-size: 1.1rem; /* Responsive rem for font size */
+    line-height: 1.6;
+}
+
+/* Styles for the two images */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    padding-top: 55px;
+    width: 25%; /* Reduced the width to make the images smaller */
+    height: auto;
+    margin: 0 50px; /* Keep the spacing between the images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adding a shadow for a polished look */
 }
