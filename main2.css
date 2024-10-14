@@ -62,13 +62,13 @@ body {
     }
 
     .translucent-box p {
-        font-size: 0.9em; /* Slightly smaller font for mobile */
-        margin-bottom: 10px; /* Reduced space between paragraphs */
-        line-height: 1.4; /* Reduce line-height inside the box */
+        font-size: 0.9em;
+        margin-bottom: 10px;
+        line-height: 1.4;
     }
 }
 
-/* Make sure content doesn't overflow on very small screens */
+
 @media (max-width: 480px) {
     .translucent-box {
         padding: 15px;

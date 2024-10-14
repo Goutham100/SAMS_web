@@ -64,11 +64,19 @@ body {
   background-color: #ffffffe6;
   border-radius: 10px;
   max-width: 900px;
-  padding: 40px;
+  margin-bottom: 10px;
+  padding: 20px;
   box-shadow: 0 6px 10px #00000026;
 }
 
 h1 {
+  text-align: center;
+  color: #2e7d32;
+  padding-top: 50px;
+  font-size: 2rem;
+}
+
+h2 {
   text-align: center;
   color: #2e7d32;
   margin-bottom: 20px;

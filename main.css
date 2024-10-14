@@ -60,15 +60,23 @@ body {
 }
 
 .translucent-box {
-    background-color: rgba(255, 255, 255, 0.9); /* Slightly more opaque for better readability */
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
-    padding: 40px; /* Increased padding */
-    max-width: 900px; /* Slightly wider */
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); /* Stronger shadow */
+    padding: 20px; /* Reduced padding */
+    max-width: 900px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
     color: #333;
+    margin-bottom: 10px; /* Reduce space between boxes */
 }
+h1
+{
+    padding-top: 50px;
+    font-size: 2rem; /* Adjusted to responsive rems */
+    text-align: center; /* Centered heading */
+    color: #2e7d32;
+}
+h2 {
 
-h1 {
     font-size: 2rem; /* Adjusted to responsive rems */
     text-align: center; /* Centered heading */
     color: #2e7d32;
