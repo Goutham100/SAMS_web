@@ -8,12 +8,53 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.top-bar {
+  color: #fff;
+  box-sizing: border-box;
+  z-index: 1000;
+  background-color: #2e7d32e6;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 60px;
+  padding: 15px 0;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  color: #fffde7;
+  margin-left: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  margin-right: 30px;
+  display: flex;
+}
+
+.nav-links a {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: background .5s, color .5s;
+}
+
+.nav-links a:hover {
+  color: #000;
+}
+
 .container {
   background-color: #ffffffe6;
   border-radius: 8px;
   justify-content: center;
   width: 80%;
   margin: 20px auto;
+  padding-top: 80px;
   box-shadow: 0 0 20px #0003;
 }
 
@@ -21,7 +62,7 @@ body {
   text-align: center;
   color: #fff;
   background-color: #2e7d32;
-  padding: 10px;
+  padding: 40px;
 }
 
 .section {

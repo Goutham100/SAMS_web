@@ -8,19 +8,58 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
+.top-bar {
+    width: 100vw;
+    background-color: rgba(46, 125, 50, 0.9);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 60px; /* Define a fixed height for the top bar */
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fffde7;
+    margin-left: 30px;
+}
+
+.nav-links {
+    display: flex;
+    margin-right: 30px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: background 0.5s, color 0.5s;
+}
+
+.nav-links a:hover {
+    color: black;
+}
 .container {
     width: 80%;
     margin: 20px auto;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
-    justify-content: center;  /* Center the translucent box */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    padding-top: 80px; /* Add padding to the top to accommodate the fixed top bar */
 }
 .header {
     text-align: center;
     background-color: #2e7d32;
-    padding: 10px;
+    padding: 40px;
     color: white;
+
 }
 .section {
     display: flex;

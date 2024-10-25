@@ -1,0 +1,57 @@
+body {
+  color: #333;
+  background-image: url("backgrnd.d5087c29.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 50px 0 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  display: flex;
+}
+
+h1 {
+  color: #000;
+}
+
+.button-container {
+  gap: 20px;
+  display: flex;
+}
+
+.button-container button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 18px;
+  transition: background-color .3s;
+}
+
+.button-container button:hover {
+  background-color: #45a049;
+}
+
+.translucent-box {
+  color: #333;
+  text-align: left;
+  background-color: #ffffffb3;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  margin-top: 20px;
+  padding: 30px;
+  box-shadow: 0 6px 15px #0000004d;
+}
+
+.translucent-box h2, .translucent-box p {
+  margin: 10px 0;
+}
+/*# sourceMappingURL=main5.cd9c4f6f.css.map */
